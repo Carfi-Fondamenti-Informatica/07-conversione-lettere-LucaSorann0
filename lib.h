@@ -1,1 +1,1 @@
-bool lettera (char &let);
+bool lettera (char &);
