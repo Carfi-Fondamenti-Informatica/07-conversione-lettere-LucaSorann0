@@ -1,11 +1,11 @@
 #include <iostream>
-#include "lib.cpp"
+#include "lib.h"
 using namespace std;
 
 int main(){
   char let = 'a';
   cin >> let;
-  if (lettera(let)) {
+  if (lettera(&let)) {
     cout << let;
 } else {
     cout << "errore";
