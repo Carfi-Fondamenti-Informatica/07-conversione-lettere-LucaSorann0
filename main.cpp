@@ -5,7 +5,7 @@ using namespace std;
 int main(){
   char let = 'a';
   cin >> let;
-  if (input(let)) {
+  if (lettera(let)) {
     cout << let;
 } else {
     cout << "errore";
