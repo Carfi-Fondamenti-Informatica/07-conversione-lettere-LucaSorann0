@@ -1,1 +1,1 @@
-bool input (char);
+bool lettera (char);
